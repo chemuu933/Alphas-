@@ -154,7 +154,8 @@ img { max-width: 100%; height: auto; display: block; }
 @media (min-width: 1024px) { .team-grid { grid-template-columns: repeat(3, 1fr); } }
 .team-card { padding: 1.5rem; border-radius: var(--radius); background: var(--card); border: 1px solid var(--border); text-align: center; transition: box-shadow 0.3s; }
 .team-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-.team-avatar { width: 80px; height: 80px; border-radius: 50%; background: rgba(185,110,120,0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+.team-avatar { width: 120px; height: auto; border-radius: 12px; background: rgba(185,110,120,0.1); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; overflow: hidden; }
+.team-avatar img { width: 100%; height: auto; }
 .team-avatar svg { width: 40px; height: 40px; color: var(--primary); }
 .team-card h3 { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.25rem; }
 .team-card .role { font-size: 0.875rem; color: var(--primary); font-weight: 500; margin-bottom: 0.75rem; }
